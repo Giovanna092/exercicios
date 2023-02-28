@@ -35,6 +35,9 @@ public class EncontrarNumero {
                 System.out.println("O numero informado esta na lista!");
                 System.out.println("O numero "+num+" se encontra na posição "+(i+1)+" da sequência.");
             }
+            else if(i==fibonacci.size()-1) {
+                System.out.println("O numero informado nao esta na lista");
+            }
         }
 
         System.out.println("\n------------------------------\n");

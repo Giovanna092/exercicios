@@ -66,7 +66,7 @@ public class Faturamento {
 
         
         //encontra o dia com o maior valor de faturamento
-        for(i=1; i < faturamento.size(); i++) {
+        for(i=0; i < faturamento.size(); i++) {
             if(faturamento.get(i) > fat) {
                 fat = faturamento.get(i);
             }
